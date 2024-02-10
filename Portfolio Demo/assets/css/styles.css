@@ -171,6 +171,11 @@ img {
   color: var(--second-color);
 }
 
+.nav__logo:hover{
+  color: #0088ff;
+  cursor: pointer;
+}
+
 .nav__toggle {
   color: var(--second-color);
   font-size: 1.5rem;
@@ -271,6 +276,11 @@ img {
 
 .about__img {
   justify-self: center;
+}
+
+.about__img:hover{
+  box-shadow: 2px 2px 5px 3px rgb(247, 32, 204);
+  border-radius: 10px;
 }
 
 .about__img img {
