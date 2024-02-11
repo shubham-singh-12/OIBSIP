@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;500&display=swap');
 
 body {
     font-family: 'Protest Riot', sans-serif !important;
     margin: 0;
     padding: 0;
+    background-image: url("./bg-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -16,6 +18,7 @@ body {
     border: 1px solid #ccc !important;
     border-radius: 5px !important;
     box-shadow: 2px 2px 2px 2px #808080 !important;
+    background-color: #fff;
 }
 
 h1 {
@@ -23,8 +26,9 @@ h1 {
 }
 
 label {
-    display: block;
     margin-bottom: 10px;
+    padding-top: 40px;
+    margin-top: -20px;
 }
 
 input[type="number"],
@@ -36,7 +40,11 @@ select {
     border-bottom: 2px solid #000000 !important;
     background-color: transparent !important;
     cursor: pointer;
-    font-family: 'Protest Riot','Protest Strike', sans-serif !important;
+    font-family: 'Protest Riot', 'Protest Strike', sans-serif !important;
+}
+
+#fromUnit{
+    margin-top: 5px !important;
 }
 
 button {
@@ -56,6 +64,8 @@ button:hover {
 
 #result {
     width: calc(100% - 20px);
+    border: none;
+    border-bottom: 2px solid #000000 !important;
     margin-bottom: 20px;
-    font-family: 'Protest Riot','Protest Strike', sans-serif !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
 }

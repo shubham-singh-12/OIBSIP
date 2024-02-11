@@ -25,17 +25,17 @@ function convertTemperature() {
 function celsiusToOther(celsius) {
     const fahrenheit = (celsius * 9 / 5) + 32;
     const kelvin = parseFloat(celsius) + 273.15;
-    return `Fahrenheit: ${fahrenheit.toFixed(2)}, Kelvin: ${kelvin.toFixed(2)}`;
+    return `Fahrenheit: ${fahrenheit.toFixed(2)} and  Kelvin: ${kelvin.toFixed(2)}`;
 }
 
 function fahrenheitToOther(fahrenheit) {
     const celsius = (fahrenheit - 32) * 5 / 9;
     const kelvin = (parseFloat(fahrenheit) + 459.67) * 5 / 9;
-    return `Celsius: ${celsius.toFixed(2)}, Kelvin: ${kelvin.toFixed(2)}`;
+    return `Celsius: ${celsius.toFixed(2)} and  Kelvin: ${kelvin.toFixed(2)}`;
 }
 
 function kelvinToOther(kelvin) {
     const celsius = kelvin - 273.15;
     const fahrenheit = (parseFloat(kelvin) * 9 / 5) - 459.67;
-    return `Celsius: ${celsius.toFixed(2)}, Fahrenheit: ${fahrenheit.toFixed(2)}`;
+    return `Celsius: ${celsius.toFixed(2)} and  Fahrenheit: ${fahrenheit.toFixed(2)}`;
 }
